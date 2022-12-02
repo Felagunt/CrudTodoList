@@ -18,7 +18,7 @@ class TodoRepositoryImpl(
         return dao.getTodoById(id)
     }
 
-    override fun getTodo(): Flow<List<Todo>> {
+    override fun getTodos(): Flow<List<Todo>> {
         return dao.getTodo()
     }
 }
